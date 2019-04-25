@@ -21,7 +21,44 @@
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.min.css" rel="stylesheet">
 <style>
-  .col-25 {
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.formulario {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
   float: left;
   width: 25%;
   margin-top: 6px;
@@ -45,6 +82,8 @@
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
+  }
+}
   </style>
 </head>
 
@@ -246,7 +285,7 @@
           <h2 class="mt-0">Entre em contato!</h2>
           <hr class="divider my-4">
           <p class="text-muted mb-5">Pronto para começar seu próximo projeto? Isso é ótimo! Ligue para mim ou envie um e-mail e entrarei em contato o mais breve possível!</p>
-<div class="container">
+<div class="formulario">
  <form action="//formspree.io/almeidagabrielaugusto@gmail.com" method="POST">
   <div class="row">
     <div class="col-25">
