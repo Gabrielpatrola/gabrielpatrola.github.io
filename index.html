@@ -69,6 +69,11 @@ input[type=submit]:hover {
   width: 75%;
   margin-top: 6px;
 }
+.col-100 {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -319,8 +324,10 @@ input[type=submit]:hover {
       <textarea id="subject" name="subject" placeholder="Mensagem que deseja escrever" style="height:200px"></textarea>
     </div>
   </div>
-  <div class="row">
+<div class="row">
+    <div class="col-100">
     <input type="submit" value="Enviar">
+    </div>
   </div>
      <input type="hidden" name="_next" value="//gabrielpatrola.github.io" />
   </form>
