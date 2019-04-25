@@ -10748,11 +10748,6 @@ header.masthead h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-
-{
-  box-sizing: border-box;
-}
-
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
