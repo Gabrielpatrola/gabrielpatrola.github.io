@@ -32,6 +32,20 @@ input[type=text], select, textarea {
   border-radius: 4px;
   resize: vertical;
 }
+  
+input[type=submit] {
+  background-color: #f4623a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+  
+input[type=submit]:hover {
+  background-color: #f24516;
+}
 
 label {
   padding: 12px 12px 12px 0;
@@ -311,7 +325,7 @@ label {
   </div>
 <div class="row">
     <div class="col-100">
-    <input class="btn btn-primary btn-xl" type="submit" value="Enviar">
+    <input type="submit" value="Enviar">
     </div>
   </div>
      <input type="hidden" name="_next" value="//gabrielpatrola.github.io" />
