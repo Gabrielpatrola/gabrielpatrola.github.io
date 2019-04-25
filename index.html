@@ -222,18 +222,32 @@
           <h2 class="mt-0">Entre em contato!</h2>
           <hr class="divider my-4">
           <p class="text-muted mb-5">Pronto para começar seu próximo projeto? Isso é ótimo! Ligue para mim ou envie um e-mail e entrarei em contato o mais breve possível!</p>
-    <form action="//formspree.io/almeidagabrielaugusto@gmail.com" method="POST">
-      <button type="button" class="btn btn-default">Nome</button><input type="text" align="center" name="name"><br />
-    <button type="button" class="btn btn-default">E-mail</button><input type="email" align="center" name="email"></p><br />
-    <button type="button" class="btn btn-default">Telefone</button><input type="phone" align="center" name="phone"></p><br />
-    <button type="button" class="btn btn-default">Mensagem</button><textarea name="message" align="center" placeholder=""></textarea></p></br>
-          <p><input type="submit" class="btn btn-dark btn-sm" value="Enviar"></p>
+    <div class="container">
+       <form action="//formspree.io/almeidagabrielaugusto@gmail.com" method="POST">
+      <div class="row">
+        <div class="col-25">Nome</div>
+        <div class="col-75"><input type="text" name="name"></div>
+            </div>
+    <div class="row">
+    <div class="col-25">E-mail</div>
+      <div class="col-75"><input type="email" name="email"></div>
+          </div>
+    <div class="row">
+      <div class="col-25">Telefone</div>
+      <div class="col-75"><input type="phone" name="phone"></div>
+         </div>
+         <div class="row">
+         <div class="col-25">Mensagem</div>
+            <div class="col-75"><textarea name="message" align="center" placeholder=""></textarea></div>
+         </div>
+         <div class="row"><input type="submit" class="btn btn-dark btn-sm" value="Enviar"></div>
    <input type="hidden" name="_next" value="//gabrielpatrola.github.io" />
 </form>
 <script>
     var contactform =  document.getElementById('formaction');
     contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
 </script>
+    </div>
         </div>
       </div>
           <div class="row">
